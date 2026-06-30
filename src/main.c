@@ -1,4 +1,4 @@
-/* user/bin/feeds/main.c -- AspisOS "Feeds" RSS/Atom reader (Lumen GUI integrator)
+/* user/bin/feeds/main.c -- LoricaOS "Feeds" RSS/Atom reader (Lumen GUI integrator)
  *
  * The fifth and final module of the Feeds app: the three-pane reader that ties
  * together its four sibling modules -- feeds_net (fetch), feeds_parse (RSS/Atom),

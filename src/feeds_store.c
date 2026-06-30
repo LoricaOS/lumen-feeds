@@ -1,4 +1,4 @@
-/* feeds_store.c — subscriptions + read-state persistence for the AspisOS
+/* feeds_store.c — subscriptions + read-state persistence for the LoricaOS
  * "Feeds" RSS reader. USERSPACE (musl libc).
  *
  * On-disk formats:
@@ -137,7 +137,7 @@ static int read_line(int fd, char *buf, size_t bufsz)
 struct seed { const char *url; const char *title; };
 
 static const struct seed DEFAULT_FEEDS[] = {
-    { "https://herald.byexec.com/feed.xml", "AspisOS News"  },
+    { "https://herald.byexec.com/feed.xml", "LoricaOS News"  },
     { "https://hnrss.org/frontpage",        "Hacker News" },
     { "https://lwn.net/headlines/rss",      "LWN"         },
 };

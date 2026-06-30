@@ -1,4 +1,4 @@
-/* feeds_net.c — network fetch for the AspisOS "Feeds" RSS reader.
+/* feeds_net.c — network fetch for the LoricaOS "Feeds" RSS reader.
  *
  * Downloads happen by fork/exec of /bin/curl, NOT in-process: curl carries the
  * NET_SOCKET capability (via /etc/aegis/caps.d/curl) and this app does not, so
@@ -65,7 +65,7 @@ int feed_fetch(const char *url, char **out, size_t *len,
     }
     if (pid == 0) {
         /* -s silent, -f fail on HTTP >=400, -L follow redirects (feeds redirect
-         * a lot), -k skip TLS cert validation (AspisOS curl ships no CA bundle;
+         * a lot), -k skip TLS cert validation (LoricaOS curl ships no CA bundle;
          * the reader doesn't need a trusted transport), -m 25 cap at 25s (feeds
          * can be slow), -A set a User-Agent (some servers 403 a blank UA),
          * -o write to the temp file. */

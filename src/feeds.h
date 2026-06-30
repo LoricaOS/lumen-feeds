@@ -1,4 +1,4 @@
-/* feeds.h — shared data model + module contract for the AspisOS "Feeds" reader.
+/* feeds.h — shared data model + module contract for the LoricaOS "Feeds" reader.
  *
  * ARCHITECTURE (one app, five modules, each a separate .c built in parallel):
  *   feeds_net.c    network fetch (fork/exec curl) ......... feed_fetch()

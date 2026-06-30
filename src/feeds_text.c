@@ -1,6 +1,6 @@
 /* feeds_text.c — HTML/XML fragment -> safe ASCII plain text.
  *
- * The TEXT module of the AspisOS "Feeds" reader. USERSPACE (musl libc).
+ * The TEXT module of the LoricaOS "Feeds" reader. USERSPACE (musl libc).
  *
  * Single forward pass over in[0..in_len), writing to out[0..outsz) with a
  * running write index `w` that is checked before EVERY byte. The output is
